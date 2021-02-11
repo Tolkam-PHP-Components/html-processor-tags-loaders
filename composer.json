@@ -1,0 +1,24 @@
+{
+    "name": "tolkam/html-processor-tags-loaders",
+    "description": "Handler loaders for HTML processor tags middleware",
+    "type": "library",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Tolkam\\HTMLProcessor\\Tags\\Loader\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "psr/container": "^1.0",
+        "php-di/php-di": "^6.3",
+        "tolkam/html-processor-tags": "^1.0@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
